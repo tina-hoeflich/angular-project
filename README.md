@@ -32,7 +32,7 @@ For the layout I used Css and flexbox to make the page responsive (apart from th
 
 # the structure
 The Project is constructed out of three components
-- the [`src`](src) folder which contains the app and the environments folder. Furthermore it contains a [`main.ts`][`style.css`] and [`index.html`] that configure some general configurations for the whole project. I also created a favoricon for the app :). 
+- the [`src`](src) folder which contains the app and the environments folder. Furthermore it contains a [`main.ts`](main.ts)[`style.css`](style.css)and [`index.html`](index.html) that configure some general configurations for the whole project. I also created a favoricon for the app :). 
 - the mock-api folder that conatins the [`mock-api\data.json`](mock-api\data.json) file. here the user credentials for logging in are safed and the posts(apart fro the images of course) are safed. This needs to be run with **json-server mock-api/data.json**
 - the node_modules folder containing all the modules for Anular
 
