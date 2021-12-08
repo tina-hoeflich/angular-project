@@ -28,7 +28,7 @@ If this isn't done once, the user can like and comment on the post he just creat
 
 # Layout
 
-For the layout I used Css and flexbox to make the page responsive (apart from the text). The three different pages each hava a Css file [`src\app\pages\posts\posts.component.css`](src\app\pages\posts\posts.component.css) , [`src\app\pages\login\login.component.css´](src\app\pages\login\login.component.css) and [`src\app\pages\create-account\create-account.component.css`](src\app\pages\create-account\create-account.component.css)
+For the layout I used Css and flexbox to make the page responsive (apart from the text). The three different pages each hava a Css file [`src\app\pages\posts\posts.component.css`](src\app\pages\posts\posts.component.css) , [`src\app\pages\login\login.component.css`](src\app\pages\login\login.component.css) and [`src\app\pages\create-account\create-account.component.css`](src\app\pages\create-account\create-account.component.css)
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
