@@ -26,9 +26,45 @@ If this isn't done once, the user can like and comment on the post he just creat
 - The App isn't fully responsive since the text/ captions of the posts are not scaling down and up. This could be implemented.
 
 
-# Layout
+# the layout
 
 For the layout I used Css and flexbox to make the page responsive (apart from the text). The three different pages each hava a Css file [`src\app\pages\posts\posts.component.css`](src\app\pages\posts\posts.component.css) , [`src\app\pages\login\login.component.css`](src\app\pages\login\login.component.css) and [`src\app\pages\create-account\create-account.component.css`](src\app\pages\create-account\create-account.component.css)
+
+# the structure
+The Project is constructed out of three components
+- the [`src`](src) folder which contains the app and the environments folder. Furthermore it contains a [`main.ts`][`style.css`] and [`index.html`] that configure some general configurations for the whole project. I also created a favoricon for the app :). 
+- the mock-api folder that conatins the [`mock-api\data.json`](mock-api\data.json) file. here the user credentials for logging in are safed and the posts(apart fro the images of course) are safed. This needs to be run with **json-server mock-api/data.json**
+- the node_modules folder containing all the modules for Anular
+
+The app uses the following moules from Angular:
+
+ - AppRoutingModule
+ - BrowserAnimationsModule
+ - MatButtonModule
+	- MatFormFieldModule
+	- MatInputModule
+	- ReactiveFormsModule
+	- FormsModule
+	- HttpClientModule
+	- MatSnackBarModule
+	- MatIconModule 
+	- MatMenuModule
+	- MatCardModule
+	- MaterialFileInputModule
+ - AngularFireModule
+ - AngularFirestoreModule
+
+The dependencies of the App are shown in the folloewing graphs:
+Components:
+- ![componenents_overview](https://user-images.githubusercontent.com/44570841/145303211-8cb81e02-18c1-4e45-9660-399a3552748c.png)
+Pages
+- ![pages_overview](https://user-images.githubusercontent.com/44570841/145303249-8edd30b4-fe43-4fb6-884e-ccc737d3185f.png)
+Services:
+- ![services_overview](https://user-images.githubusercontent.com/44570841/145303289-8cb09d6a-468f-418f-bfd9-78f9e401e8cc.png)
+Overall overview (can be zoomed quite well):
+- ![source_overview](https://user-images.githubusercontent.com/44570841/145303358-3f4d6038-fc27-4ea3-9ea9-1f147c5bb55e.png)
+
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
@@ -40,4 +76,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help or information about Angular
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
- 
