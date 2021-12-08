@@ -1,0 +1,67 @@
+<!-- Wrapper Container for the Post Page -->
+<!--  -->
+<div class="container">
+    <div class="content-wrapper">
+		<!-- Form Field for the caption  -->
+      <mat-form-field appearance="fill">
+        <textarea [(ngModel)]="text" matInput cdkTextareaAutosize cdkAutosizeMinRows="5" placeholder="Say something..."></textarea>
+      </mat-form-field>
+      <div class="new-post-actions-container">
+		  <!-- Button for posting, calls function post() defined in posts.component.ts -->
+        <button (click)="post()" mat-raised-button class="post-button">Post</button>
+        
+        <mat-form-field class="image-button">
+          <ngx-mat-file-input class="image-input" #removableInput placeholder="Upload image" (change)="onFileSelected($event)"></ngx-mat-file-input>
+         <!-- Cross Button to remove the uploaded image again -->
+		  <button mat-icon-button matSuffix *ngIf="!removableInput.empty" (click)="removableInput.clear($event)">
+            <mat-icon>clear</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+	  <!-- Displaying all posts out of the posts array -->
+  <!-- Actual posts. This uses the Mat-Card Template from Angular Materials  -->
+     <!-- Using .reverse to show latest post at the top -->
+  <mat-card class="post-card" *ngFor="let post of posts.reverse(); let i = index">
+        <mat-card-header>
+          <mat-card-title>
+  <!-- The title of each card is the username of the User -->
+           {{post.username}}
+          </mat-card-title>
+        </mat-card-header>
+        <img *ngIf="post.imageURL != ''" [src]="post.imageURL" alt="image" mat-card-image>
+        <mat-card-content>
+          <p>
+            {{post.text}}
+          </p>
+        </mat-card-content>
+	<!-- Action buttons that are found below the picture -->
+        <mat-card-actions>
+			<!-- Like button: if clicked it calls the funcrtion "like()"-->
+          <button (click)="like(post.id)"  class="like-button" mat-icon-button disableRipple="true">
+            <mat-icon> {{post.likes.indexOf(userService.user.id) >= 0 ? 'favorite' : 'favorite_border'}} </mat-icon>
+         <!-- Amount of likes a picture has = arraylenght of array likes -->
+		</button> <span>{{post.likes.length}} liked it</span>
+        </mat-card-actions>
+		<!-- Comment section below the post: -->
+        <div class="comments-container">
+          <div class="comments">
+            <div class="title">
+              Comments
+            </div>
+			<!-- Comments: -->
+            <p *ngFor="let comment of post.comments"><b>{{comment.username}}:</b> {{comment.comment}}</p>
+          </div>
+		  <!-- Form field to type a comment -->
+          <div class="comment-input">
+            <mat-form-field class="comment-form-field" >
+              <input [(ngModel)]="commentText[i]" matInput type="text" placeholder="Add a comment">
+            </mat-form-field>
+			<!-- Submit button to submit comment -->
+			<!-- Calls function comment() -->
+            <button (click)="comment(post.id, i)" class="comment-button" mat-button>Comment</button>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+  

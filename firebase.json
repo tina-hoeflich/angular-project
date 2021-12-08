@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\social-network-wall",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
