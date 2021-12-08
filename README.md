@@ -55,6 +55,10 @@ The app uses the following moules from Angular:
  - AngularFirestoreModule
 
 ## The dependencies of the App are shown in the folloewing graphs:
+*Any information required to understand the code and detailed structure of the code should be found in the comments of the code!*
+
+This file is just to give an overview. 
+
 ### Components:
 - ![componenents_overview](https://user-images.githubusercontent.com/44570841/145303211-8cb81e02-18c1-4e45-9660-399a3552748c.png)
 ### Pages
