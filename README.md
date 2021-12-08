@@ -38,19 +38,19 @@ The Project is constructed out of three components
 
 The app uses the following moules from Angular:
 
- - AppRoutingModule
- - BrowserAnimationsModule
- - MatButtonModule
-	- MatFormFieldModule
-	- MatInputModule
-	- ReactiveFormsModule
-	- FormsModule
-	- HttpClientModule
-	- MatSnackBarModule
-	- MatIconModule 
-	- MatMenuModule
-	- MatCardModule
-	- MaterialFileInputModule
+- AppRoutingModule
+- BrowserAnimationsModule
+- MatButtonModule
+- MatFormFieldModule
+- MatInputModule
+- ReactiveFormsModule
+- FormsModule
+- HttpClientModule
+- MatSnackBarModule
+- MatIconModule 
+- MatMenuModule
+- MatCardModule
+- MaterialFileInputModule
  - AngularFireModule
  - AngularFirestoreModule
 
