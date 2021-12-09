@@ -95,7 +95,7 @@ To post a picture I implemented a post() functions using typescript. It uploads 
 
 A short explanaitionvideo:
 
-[![Watch the video]( )](https://youtu.be/iosNuIdQoy8)
+[![Watch the video](https://user-images.githubusercontent.com/44570841/145325382-1db2526c-abbf-46da-a80b-d7132ab194bc.png)](https://youtu.be/iosNuIdQoy8)
 
 
 ## The dependencies of the App are shown in the follewing graphs:
