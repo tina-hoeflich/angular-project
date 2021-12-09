@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "email": "",
+      "username": "Tina",
+      "password": "passwort123",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "username": "Tina",
+      "text": "Hi",
+      "imageURL": "",
+      "likes": [
+        1
+      ],
+      "comments": [],
+      "id": 1
+    },
+    {
+      "username": "Tina",
+      "text": "My first Post :)",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/webengineering-project-2021.appspot.com/o/images%2F1639016307078?alt=media&token=1ded8c76-5240-4af4-b18f-c04518d78306",
+      "likes": [],
+      "comments": [],
+      "id": 2
+    }
+  ]
+}
