@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webengineering-project-2021": {
+      "hosting": {
+        "social-network-wall": [
+          "webengineering-project-2021"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webengineering-project-2021"
+  }
+}
