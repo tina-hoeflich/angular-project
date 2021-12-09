@@ -1,11 +1,11 @@
 # Webengineering Project 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4. So for the installation of  Angular please look at https://angular.io/guide/setup-local 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4. So for the installation of  Angular please look at https://angular.io/guide/setup-local. It is not yet possible to upload everything on github so please download the code from https://dhbwstg-my.sharepoint.com/:f:/g/personal/inf20112_lehre_dhbw-stuttgart_de/Et2uNSDghV5MugjOTBOlY9UBSDPhKAtbNv81PPCyL9qpuw?e=kFAUUd 
 
 ## Running the project on the development server
 
-For running the web-app on the the local development server you need to start the json server on **http://localhost:3000/** so it is reqired to open a terminal and type **json-server mock-api/data.json** at the SAME LOCATION where project is safed so at ../WebengineeringProjectSocialNetwork. The posts and login data will be safed at this locaion
-A working copy of the project can be created by downloadig the project as `zip`. 
+For running the web-app on the the local development server you need to start the json server on **http://localhost:3000/** so it is reqired to open a terminal and type **json-server mock-api/data.json** at the SAME LOCATION where project is safed so at *../WebengineeringProject2021*. The posts and login data will be safed at this locaion
+A working copy of the project can soon be created by downloadig the project as `zip`. (For now download the zip as noted above).
 In the project directory `ng serve --open` must be executed via the console. Afterwards the page should open automatically (if not it can be viewed in the browser under `http://localhost:4200/`). 
 
 # The Project
