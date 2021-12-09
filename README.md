@@ -4,8 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Running the project on the development server
 
-For running the web-app on the the local development server you need to start the json server on **http://localhost:3000/** so it is reqired to open a terminal and type `json-server mock-api/data.json` at the SAME LOCATION where project is safed so at *../WebengineeringProject2021*. The posts and login data will be safed at this locaion
-A working copy of the project can soon be created by downloadig the project as `zip`. (For now download the zip as noted above).
+For running the web-app on the the local development server you need to start the json server on **http://localhost:3000/** so it is reqired to open a terminal and type `json-server mock-api/data.json` at the SAME LOCATION where project is safed so at *../WebengineeringProject2021*. The posts and login data will be safed at this locaion.
+
+A working copy of the project can soon be created by downloadig the github project as `zip`. (For now download the zip as noted above).
 In the project directory `ng serve --open` must be executed via the console. Afterwards the page should open automatically (if not it can be viewed in the browser under `http://localhost:4200/`). 
 
 # The Project
