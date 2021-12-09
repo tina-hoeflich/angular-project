@@ -190,9 +190,9 @@ To post a picture I implemented a post() functions using typescript. It uploads 
 
 ### What is firebase?
 
-A short explanaitionvideo:
+A short explanaition video:
 
-[![Watch the video](![image](https://user-images.githubusercontent.com/44570841/145321626-52e98e51-76f6-4403-82ab-dc552f4d070a.png))](https://youtu.be/iosNuIdQoy8)
+[![Watch the video](https://user-images.githubusercontent.com/44570841/145321626-52e98e51-76f6-4403-82ab-dc552f4d070a.png)](https://youtu.be/iosNuIdQoy8)
 
 
 ## The dependencies of the App are shown in the follewing graphs:
