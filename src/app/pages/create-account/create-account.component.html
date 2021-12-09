@@ -1,0 +1,35 @@
+<!-- Container for Create-Account Page -->
+<!-- Using a simelar layout like Login Page -->
+<div class="container">
+	<div class="form-container">
+		<!-- Title of the Page -->
+		<div class="title">Create Account</div>
+		<form [formGroup]="createAccountForm">
+			<!-- Email and Password Field like Login-->
+		<mat-form-field appearance = "outline">
+			<mat-label>Enter your email</mat-label>	
+			<input matInput formControlName="email"/>
+		</mat-form-field>
+		<!-- Added Username Field -->
+		<mat-form-field appearance = "outline">
+			<mat-label>Enter your username</mat-label>	
+			<input matInput formControlName= "username"/>
+		</mat-form-field>
+		<mat-form-field appearance = "outline">
+			<mat-label>Enter your password</mat-label>	
+			<input type="password" matInput formControlName ="password"/>
+		</mat-form-field>
+		</form>
+		<!-- Submit Buttons (opposite than the ones on the login page)-->
+		<div class="buttons-container">
+	 <!-- Submit button calls the create() function. It is disabled, when the Forms are not valid, so if f.ex the email is mot valid--> -->
+	<!-- The class is login button, because the design assigned to the highlighted button is assigned to the class "login button" -->
+	 	<button mat-raised-button [disabled]="createAccountForm.invalid" (click)="create()" class="login-button">
+				Create Account
+			</button>
+			<p>OR</p>
+			<!-- Redirecting to Login Page with login Button -->
+			<button routerLink="/login"mat-button>Login</button>
+		</div>
+	</div>
+</div>

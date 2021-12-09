@@ -1,0 +1,6 @@
+/* Styling of a Container using flexpox */
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}

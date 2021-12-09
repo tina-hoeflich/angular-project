@@ -1,0 +1,54 @@
+/* Styling the Login Page with a flex Container*/
+
+/* Styling of the whole container/ whole page */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 10% 0 10% 0; */
+    justify-content: center;
+    align-items: center;
+}
+  /* Styling of the form container using flexbox */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: white;
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+}
+  /* Styling of the part where the forms are located in using flexbox  */
+form{
+    display: flex;
+    flex-direction: column;
+}
+  /* Styling of the title "Login" */
+.title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+  /* Styling of the form fields, a user can type his credentials in */
+mat-form-field{
+    /* margin:10px; */
+    width: 20vw;
+}
+  /* Styling of the buttons */
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+  /* Highlighted button */
+.buttons-container > p{
+    margin-top: 10px;
+}
+ 
+.login-button{
+    background-color: #4285F4;
+    color: white;
+}

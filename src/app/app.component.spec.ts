@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'social-network-wall'`, () => {
+  it(`should have as title 'webengineering-project-2021'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('social-network-wall');
+    expect(app.title).toEqual('webengineering-project-2021');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('social-network-wall app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('webengineering-project-2021 app is running!');
   });
 });
