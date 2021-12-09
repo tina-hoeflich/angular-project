@@ -1,6 +1,6 @@
 # Webengineering Project 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4. So for the installation of  Angular please look at https://angular.io/guide/setup-local. It is not yet possible to upload everything on github so please download the code from https://dhbwstg-my.sharepoint.com/:f:/g/personal/inf20112_lehre_dhbw-stuttgart_de/Et2uNSDghV5MugjOTBOlY9UBSDPhKAtbNv81PPCyL9qpuw?e=kFAUUd 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4. So for the installation of  Angular please look at https://angular.io/guide/setup-local. **It is not yet possible to upload everything on github so please download the code from https://dhbwstg-my.sharepoint.com/:f:/g/personal/inf20112_lehre_dhbw-stuttgart_de/Et2uNSDghV5MugjOTBOlY9UBSDPhKAtbNv81PPCyL9qpuw?e=kFAUUd**
 
 ## Running the project on the development server
 
